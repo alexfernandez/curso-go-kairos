@@ -15,19 +15,19 @@ Saber programar en algún lenguaje de programación moderno: JavaScript, Java, P
 ### Día 1: Introducción
 
 * Hola, mundo.
-* Librerías estándar.
 * Tipos y funciones. Valores cero.
 * Punteros, structs e interfaces.
 * Arrays y slices.
-* Gestión de errores.
+* Librerías estándar.
+* Concurrencia: gorutinas, canales.
 
 ### Día 2: API Rest
 
 * Creación de proyecto.
-* Entorno de ejecución y herramientas estándar..
+* Entorno de ejecución y herramientas estándar.
 * Sistema de librerías, paquetes e importación.
 * Fichero de configuración JSON.
-* Concurrencia: gorutinas, canales.
+* Gestión de errores.
 
 ## Sobre el profesor
 
