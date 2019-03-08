@@ -25,9 +25,9 @@ func readAndPrint(filename *string, filter *string) {
 		log.Fatalf("Error %v", err)
 	}
 	lines := strings.Split(string(contents), "\n")
-	for i := 0; i < len(lines); i++ {
-		if strings.Contains(lines[i], *filter) {
-			fmt.Printf("%v", lines[i]+"\n")
+	for _, line := range lines {
+		if strings.Contains(line, *filter) {
+			fmt.Printf("%v", line+"\n")
 		}
 	}
 }
